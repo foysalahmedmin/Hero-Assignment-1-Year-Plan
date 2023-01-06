@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common design */
+
+section{
+    margin: 130px 0;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.primary-btn{
+    padding: 20px 25px;
+    background: #F15B22;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+.primary-btn a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.primary-btn:hover{
+    border: 2px solid #F15B22;
+    background: transparent;
+}
+.primary-btn:hover a{
+    color:#F15B22;
+}
+.primary-btn:hover{
+    color:#F15B22;
+}
+
+/* header */
+header{
+    height: 100vh;
+    background-image: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+header .banner{
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .banner .banner-content{
+    width: 500px;
+    text-align: end;
+}
+header .banner .banner-content h1{
+    font-size: 65px;
+    color:#151414;
+    margin-bottom: 25px;
+}
+header .banner .banner-content p{
+    color: #444343;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+/* prev achieve section */
+
+/* prev achieve section end */
+
+/* prev failure section */
+.prev-fail-section .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+}
+.fail-image{
+    height: 725px;
+}
+.fail-image img{
+    height: 100%;
+}
+.fail-contents{
+    width: 420px;
+    margin-top: 100px;
+}
+.fail-contents h1{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.fail-contents p{
+    color: #444343;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.fail-contents ul li {
+    list-style: none;
+    color: #444343;
+    line-height: 35px;
+}
+.fail-contents ul li i{
+    color:  #16D887
+}
+/* prev failure section end */
+
+/* plan section */
+.plan-section .container h1{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.plan-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:75px;
+    text-align: center;
+}
+.plan-items .item{
+    width: 220px;
+}
+.plan-items .item h3{
+    font-size: 30px;
+    padding: 17px 0;
+    color: #151414;
+}
+.plan-items .item p{
+    font-size: 25px;
+    color: #737272;
+}
+/* plan section end */
+
+
+/* contact section */
+.contact-section .container{
+    min-height: 300px;
+    padding-left: 65px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: linear-gradient(to right, #F15B22, transparent),url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.contact-section .container h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.contact-section .container .primary-btn{
+    background: #fff;
+}
+.contact-section .container .primary-btn a{
+    color: #F15B22; 
+}
+/* contact section end */
+
+/* footer */
+footer{
+    background: #151414;
+    color: #fff;
+    padding: 130px 0;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .Future{
+    width: 485px;
+}
+footer .container .Future h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+footer .container .Future p{
+    line-height: 27px;
+}
+.social-icon{
+    margin: 17px 17px 0 0;
+}
+
+footer .container .Subscribe{
+    width: 385px;
+}
+footer .container .Subscribe h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+footer .container .Subscribe input[type=email]{
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+/* footer end */
