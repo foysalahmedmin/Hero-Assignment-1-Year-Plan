@@ -70,7 +70,71 @@ header .banner .banner-content p{
 }
 
 /* prev achieve section */
+.prev-achieve-section{
 
+}
+.achieve-heading {
+    max-width: 670px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.achieve-heading > h1{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.achieve-heading > p{
+    color: #444343;
+    line-height: 27px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.achievement-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+.achievement-items article{
+    width: 315px;
+    padding: 55px 23px;
+    box-shadow: 0 0 10px #777777;
+    cursor: pointer;
+}
+.achievement-items article:hover{
+    background: #f15d2265;
+    box-shadow: 0 0 30px #F15B22;
+}
+.achievement-items article .icon i{
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: #F15B22;
+}
+.achievement-items article h3{
+    font-size: 27px;
+    margin-bottom: 27px;
+    color: #151414;
+}
+.achievement-items article p{
+    color: #444343;
+    line-height: 27px;
+}
+.achievement-items article strong{
+    color: #737272;
+    display: block;
+    margin-bottom: 25px;
+}
+.achievement-items article a{
+    color:#F15B22;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.achieve-btn{
+    text-align: center;
+    margin: 40px 0;
+}
 /* prev achieve section end */
 
 /* prev failure section */
